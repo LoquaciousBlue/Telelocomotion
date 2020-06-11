@@ -1,0 +1,10 @@
+<launch>
+
+<include file="$(find phantomx_gazebo)/launch/phantomx_gazebo_s.launch"/>
+
+<node pkg="phantomx_gazebo" type="walker_key.py" name="walker_key"/>
+
+  <node name="rviz" pkg="rviz" type="rviz"/>
+
+
+</launch>

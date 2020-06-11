@@ -1,0 +1,8 @@
+prefix=/home/lab/telelocomotion_ws/install
+
+Name: telelocomotion_launch
+Description: Description of telelocomotion_launch
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/lab/telelocomotion_ws/install/lib 
+Requires: 
